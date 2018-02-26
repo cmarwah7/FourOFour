@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{670492D6-9B5A-402B-B17D-6D2BF6B36E4A}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{02276BFA-0774-4DCA-91B5-E0415F4E0F6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{E56F7BE0-F563-4BFD-8C46-7B39E78FC2A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{996FA8D9-503D-453A-8D6D-7E259A0EE472}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SitecoreExtensions", "SitecoreExtensions", "{87FF2053-FCAC-47B8-B3A5-87BC5F3D01E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FourOFour.Foundation.SitecoreExtensions", "src\Foundation\SitecoreExtensions\code\FourOFour.Foundation.SitecoreExtensions.csproj", "{8A724460-8C43-41D8-A05B-2919C88D001B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{74A2605F-B542-4A49-8C77-DBFAF94F5FF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FourOFour.Feature.Sample", "src\Feature\Sample\code\FourOFour.Feature.Sample.csproj", "{E434EB21-5C28-4AD7-822A-AC06D739CC2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{FFA4DBD0-2E94-4BA3-994C-D2E1C504E8FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FourOFour.Common.Website", "src\Project\Common\code\FourOFour.Common.Website.csproj", "{508FE0CC-916E-497F-A025-6CB4BA846EAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A724460-8C43-41D8-A05B-2919C88D001B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A724460-8C43-41D8-A05B-2919C88D001B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A724460-8C43-41D8-A05B-2919C88D001B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A724460-8C43-41D8-A05B-2919C88D001B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E434EB21-5C28-4AD7-822A-AC06D739CC2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E434EB21-5C28-4AD7-822A-AC06D739CC2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E434EB21-5C28-4AD7-822A-AC06D739CC2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E434EB21-5C28-4AD7-822A-AC06D739CC2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{508FE0CC-916E-497F-A025-6CB4BA846EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{508FE0CC-916E-497F-A025-6CB4BA846EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{508FE0CC-916E-497F-A025-6CB4BA846EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{508FE0CC-916E-497F-A025-6CB4BA846EAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{87FF2053-FCAC-47B8-B3A5-87BC5F3D01E5} = {E56F7BE0-F563-4BFD-8C46-7B39E78FC2A9}
+		{8A724460-8C43-41D8-A05B-2919C88D001B} = {87FF2053-FCAC-47B8-B3A5-87BC5F3D01E5}
+		{74A2605F-B542-4A49-8C77-DBFAF94F5FF5} = {02276BFA-0774-4DCA-91B5-E0415F4E0F6B}
+		{E434EB21-5C28-4AD7-822A-AC06D739CC2C} = {74A2605F-B542-4A49-8C77-DBFAF94F5FF5}
+		{FFA4DBD0-2E94-4BA3-994C-D2E1C504E8FC} = {996FA8D9-503D-453A-8D6D-7E259A0EE472}
+		{508FE0CC-916E-497F-A025-6CB4BA846EAC} = {FFA4DBD0-2E94-4BA3-994C-D2E1C504E8FC}
+	EndGlobalSection
+EndGlobal
